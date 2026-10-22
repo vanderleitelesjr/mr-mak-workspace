@@ -7,6 +7,7 @@
 - A numbered list you send no longer appears in the Conversation view as a menu to answer. The terminal echoes it with the marker of a selected option; a real menu hides the CLI's input box, which is still visible below an echo.
 - A chat opened in the Conversation view clears its unread mark. Only the Terminal view told the service the chat was being watched.
 - After Claude Code compacts a chat, the Conversation view shows its summary as a collapsed "Conversation compacted" notice instead of a long message from you, on desktop and phone. It no longer counts toward the fresh-chat suggestion.
+- Group open tabs by project with the folder button next to New chat. Each project folder becomes a named group, its tabs sit together and pinned tabs stay first; a group that already holds only that folder keeps its name. Click again to ungroup the open tabs in place; closed chats keep their group, so grouping again restores the same names and colors.
 - The development server no longer watches `.cache`, where UI test fixtures accumulate.
 
 ## 0.5.2 - 2026-10-18
